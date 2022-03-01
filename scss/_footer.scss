@@ -1,0 +1,150 @@
+@import "_colores.scss";
+
+/*________________________________________________FOOTER____MOBILE____________________________________________________________*/
+
+footer{
+    background-color:  $colorFondoFooter;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    div{
+        text-align: center;
+        h4{
+            padding-top: 10px;
+        }
+        #redes{
+            margin-top: 10px;
+        }
+        ul{
+            padding-left: 0%;
+            list-style-type: none;
+            .listaFooter{
+                a{
+                    display: block;
+                    line-height: 2;
+                    margin-top: 10px;
+                }
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+/*____________________________________________________________DESKTOP__________________________________________________________________________*/
+
+
+
+/*__________________________________________________FOOTER_____DESKTOP____________________________________________________*/
+footer{
+    grid-area: footer;
+    background-color: $colorFondoFooter;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 20vmax;
+    div{
+        width: 30%;
+        h4{
+            font-size: 2vmax;
+            margin-top: 15px;
+        }
+        #redes{
+            align-items: center;
+            padding: 10px;
+            align-content: center;
+            text-align: center;
+            width: 100%;
+            .listaFooter{
+                display: flex;
+                width: 100%;
+                align-items: center;
+                padding: 10px;
+                align-content: center;
+                justify-content: space-around;
+            }
+        }
+        ul{
+            padding-left: 0%;
+            list-style-type: none;
+            .listaFooter{
+                a{
+                    display: block;
+                    line-height: 2;
+                    font-size: 1.5vmax;
+                    &:hover{
+                        font-size: 2vmax;
+                    }
+                }
+                img{
+                    width: 4vmax;
+                    height: 4vmax;
+                }
+            }
+        }
+    }
+}
+
+/*____________________________________________________________TABLET____________________________________________________________________*/
+
+
+/*____________________________________________________________TABLET___FOOTER_________________________________________________________________*/
+footer{
+    grid-area: footer;
+    background-color: $colorFondoFooter;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    div{
+        width: 25%;
+        h4{
+            font-size: 2vmax;
+            margin-top: 15px;
+        }
+        #redes{
+            align-items: center;
+            padding: 10px;
+            align-content: center;
+            text-align: center;
+            width: 100%;
+            .listaFooter{
+                display: flex;
+                width: 100%;
+                align-items: center;
+                padding: 10px;
+                align-content: center;
+                justify-content: space-between;
+                img{
+                    width: 4vmax;
+                    height: 4vmax;
+                }
+            }
+        }
+        ul{
+            padding-left: 0%;
+            list-style-type: none;
+            .listaFooter{
+                a{
+                    display: block;
+                    line-height: 2;
+                    font-size: 1.5vmax;
+                    color: $colorLetraFooter;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

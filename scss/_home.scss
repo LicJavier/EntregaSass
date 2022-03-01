@@ -1,0 +1,127 @@
+@import "colores.scss";
+
+/*________________________________________________HOME MOBILE____________________________________________________________*/
+
+
+    .main__home{
+        grid-area: main;
+        background: linear-gradient(180deg, #224a92, #8fafec);
+        text-align: center;
+        .article__home{
+            padding: 10px;
+        }
+    }
+    aside{
+        grid-area: aside;
+        background-color:  #8fafec;
+        text-align: center;
+        h4{
+        margin: 5px auto;
+        }
+    }
+
+/*______________________________________________HOME DEKTOP____________________________________________________*/
+
+.main__home{
+    grid-area: main;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(180deg, #224a92, #8fafec);
+    .titulo__home{
+        text-align: center;
+        font-family: 'Quintessential', cursive;
+        color: #000;
+        width: 100%;
+        font-size: 4vmax;
+        animation: animacion__thome 5s;
+        }
+    .section__home{
+        width: 100%;
+        height: 30vmax;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        .article__home{
+            border: 1px solid #000;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.5vmax;
+            text-align: center;
+            padding: 1vmax;
+            margin: 1.5vmax auto;
+            width: 50%;
+            p{
+            margin-bottom: 0%;
+            }
+        }
+    }
+    aside{
+        grid-area: aside;
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(180deg, #224a92, #8fafec);
+        div{
+            height: 100%;
+            margin: 20px auto;
+            h4{
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                margin-bottom: 5px;
+                font-size: 2vmax;
+                color: #000;
+            }
+            iframe{
+                width: 25vmax;
+                height: 32vmax;
+            }
+        }
+    }
+}
+/*______________________________________________HOME TABLET____________________________________________________*/
+.main__home{
+    grid-area: main;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .titulo__home{
+        text-align: center;
+        font-family: 'Quintessential', cursive;
+        width: 100%;
+        font-size: 6vmax;}
+    .article__home{
+        border: 1px solid #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8vmax;
+        text-align: center;
+        padding-bottom: 0 ;
+        padding: 5px;
+        margin: 1vmax    auto;
+        width: 50%; 
+        .section__home{
+            width: 100%;
+            height: 100%;
+            color: #000;
+            display: flex;
+            flex-direction: column;
+            }
+        }      
+}
+aside{
+    grid-area: aside;
+    width: 100%;
+    text-align: center;
+    div{
+        height: 100%;
+        margin: 20px auto;
+        h4{
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 2vmax;
+        }
+        iframe{
+            width: 25vmax;
+            height: 32vmax;
+        }
+    }
+}
+
+

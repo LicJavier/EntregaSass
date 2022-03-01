@@ -1,0 +1,147 @@
+/*________________________________________________CONTAINER____MOBILE____________________________________________________________*/
+
+
+.containerHome{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100px 250px 450px 325px;
+    grid-template-areas:    "header header"
+                            "nav    main"
+                            "nav    aside"
+                            "footer footer";
+}
+.containerNosotros{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 200px 500px 325px;
+    grid-template-areas:    "header header"
+                            "nav    main"
+                            "footer footer";
+}
+.container__galeria{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 200px 500px 325px;
+    grid-template-areas:    "header header"
+                            "nav    main"
+                            "footer footer";
+}
+.container__bibliografia{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 200px 650px 325px;
+    grid-template-areas:    "header header"
+                            "nav    main"
+                            "footer footer";
+}
+.container__contacto{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 200px 500px 325px;
+    grid-template-areas:    "header header"
+                            "nav    main"
+                            "footer footer";
+}
+
+/*________________________________________________CONTAINER__DESKTOP__________________________________________________________*/
+
+.containerHome{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40vh 10vh 80vh 40vh;
+    grid-template-areas:    "header header header"
+                            "nav nav nav"
+                            "main main aside"
+                            "footer footer footer";
+}
+
+.containerNosotros{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40vh 10vh 80vh 40vh;
+    grid-template-areas:    "header"
+                            "nav"
+                            "main"
+                            "footer";
+}
+
+.container__galeria{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40vh 10vh 80vh 40vh;
+    grid-template-areas:    "header"
+                            "nav"
+                            "main"
+                            "footer";
+}
+
+.container__bibliografia{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40vh 10vh 80vh 40vh;
+    grid-template-areas:    "header"
+                            "nav"
+                            "main"
+                            "footer";
+}
+
+.container__contacto{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40vh 10vh 80vh 40vh;
+    grid-template-areas:    "header"
+                            "nav"
+                            "main"
+                            "footer";
+}
+
+
+/*____________________________________________________________TABLET____________________________________________________________________*/
+
+    .containerHome{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 200 450 450 200;
+        grid-template-areas:    "header header"
+                                "nav    main"
+                                "nav    aside"
+                                "footer footer";
+                                background: linear-gradient(180deg, #224a92, #8fafec);
+    }
+    
+    .containerNosotros{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 250px 800px 350px;
+        grid-template-areas:    "header header"
+                                "nav    main"
+                                "footer footer";
+    background: linear-gradient(180deg, #224a92, #8fafec);
+    }
+    .container__galeria{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 250px 600px 350px;
+        grid-template-areas:    "header header"
+                                "nav    main"
+                                "footer footer";
+    background: linear-gradient(180deg, #224a92, #8fafec);
+    }
+    .container__bibliografia{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 250px 800px 350px;
+        grid-template-areas:    "header header"
+                                "nav    main"
+                                "footer footer";
+    background: linear-gradient(180deg, #224a92, #8fafec);
+    }
+    .container__contacto{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 250px 800px 350px;
+        grid-template-areas:    "header header"
+                                "nav    main"
+                                "footer footer";
+    background: linear-gradient(180deg, #224a92, #8fafec);
+    }
